@@ -9,6 +9,19 @@ body {
 	background-color: #f9f9f9;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  /* this is 2rem in original skeleton - I need less blank space */
+}
+
+a {
+	color: #008;
+}
+
+a:hover {
+	color: #88f;
+}
+
 .color-light {
 	color: #444;
 	background-color: #f9f9f9;
@@ -34,6 +47,23 @@ body {
 	line-height: 150px;
 	text-align: center;
 }
+
+.tinycircle {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.tinycircle-invert {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
 
 .button {
   color: #f9f9f9;
@@ -75,12 +105,11 @@ since buttons on mobile don't look good */
 }
 
 
-
 /* section 2 */
 
 .section2 {
 	padding-top: 20px;
-	height: 600px;
+	padding-bottom: 50px;
 }
 
 
@@ -88,7 +117,7 @@ since buttons on mobile don't look good */
 
 .section3 {
 	padding-top: 20px;
-	height: 600px;
+	padding-bottom: 50px;
 }
 
 
@@ -96,7 +125,7 @@ since buttons on mobile don't look good */
 
 .section4 {
 	padding-top: 20px;
-	height: 600px;
+	padding-bottom: 50px;
 }
 
 
@@ -104,5 +133,5 @@ since buttons on mobile don't look good */
 
 .section5 {
 	padding-top: 20px;
-	height: 600px;
+	padding-bottom: 50px;
 }
