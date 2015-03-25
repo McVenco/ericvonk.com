@@ -1,4 +1,3 @@
-// empty file, to be filled
 $(document).ready(function(){
 
 	$("h1").rotate({ 
