@@ -1,10 +1,22 @@
 $(document).ready(function(){
 
-	$("h1").rotate({ 
+	$(".circle.color-dark").rotate({ 
 	   bind: 
 	     { 
         mouseover : function() { 
             $(this).rotate({animateTo:360})
+        },
+        mouseout : function() { 
+            $(this).rotate({animateTo:0})
+        }
+	     } 
+	});
+
+	$(".circle.color-light").rotate({ 
+	   bind: 
+	     { 
+        mouseover : function() { 
+            $(this).rotate({animateTo:-360})
         },
         mouseout : function() { 
             $(this).rotate({animateTo:0})
