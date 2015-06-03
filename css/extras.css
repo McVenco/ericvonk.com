@@ -17,8 +17,13 @@ a {
 	color: #008;
 }
 
-a:hover {
+a:hover,
+a i:hover {
 	color: #88f;
+}
+
+i {
+	color: #444;
 }
 
 .color-light {
