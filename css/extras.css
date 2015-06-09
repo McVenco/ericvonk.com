@@ -44,29 +44,6 @@ i {
 	text-align: center;
 }
 
-.button {
-  color: #f9f9f9;
-  border-color: #f9f9f9;
-}
-
-.button:hover {
-  color: #f9f9f9;
-  border-color: #f9f9f9;
-  background-color: #888;
-}
-
-.button.button-primary {
-  color: #f9f9f9;
-  border-color: #f9f9f9;
-  background-color: #888;
-}
-
-.button.button-primary:hover {
-  color: #f9f9f9;
-  border-color: #f9f9f9;
-  background-color: #888;
-}
-
 
 /* all sections */
 
