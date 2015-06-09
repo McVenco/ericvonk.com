@@ -68,41 +68,15 @@ i {
 }
 
 
-/* section 1 */
+/* all sections */
+
+.section {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+/* add extra height for section 1*/
 
 .section1 {
-	padding-top: 20px;
-	height: 600px;
-}
-
-
-/* section 2 */
-
-.section2 {
-	padding-top: 20px;
-	padding-bottom: 50px;
-}
-
-
-/* section 3 */
-
-.section3 {
-	padding-top: 20px;
-	padding-bottom: 50px;
-}
-
-
-/* section 4 */
-
-.section4 {
-	padding-top: 20px;
-	padding-bottom: 50px;
-}
-
-
-/* section 5 */
-
-.section5 {
-	padding-top: 20px;
-	padding-bottom: 50px;
+	height: 500px;
 }
