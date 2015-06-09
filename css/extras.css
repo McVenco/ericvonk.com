@@ -45,15 +45,15 @@ i {
 }
 
 
-/* all sections */
+/* all chapters */
 
-.section {
+.chapter {
 	padding-top: 20px;
 	padding-bottom: 50px;
 }
 
 /* add extra height for section 1*/
 
-.section1 {
+.chapter1 {
 	height: 500px;
 }
