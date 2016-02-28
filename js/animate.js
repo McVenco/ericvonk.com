@@ -10,7 +10,7 @@ $(document).ready(function(){
 				$(this).rotate({animateTo:0})
 			}
 		}
-	});
+	})
 
 	$(".circle.color-light").rotate({
 		bind:
@@ -18,18 +18,18 @@ $(document).ready(function(){
 			mouseover : function(){
 				$(this).rotate({animateTo:-360})
 			},
-			mouseout : function({
+			mouseout : function(){
 				$(this).rotate({animateTo:0})
 			}
 		}
-	});
+	})
 
 	$("h1").hover(
 		function(){
-			$(this).css('font-weight', 'bold');
+			$(this).css('font-weight', 'bold')
 		}, function(){
-			$(this).css('font-weight', 'normal');
+			$(this).css('font-weight', 'normal')
 		}
-	);
+	)
 
-});
+})
