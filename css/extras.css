@@ -1,51 +1,51 @@
 html {
-	-webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .color-light a:hover,
 .color-dark a:hover,
 .color-light a i:hover,
 .color-dark a i:hover {
-	color: #f66;
-	text-decoration: none;
+    color: #f66;
+    text-decoration: none;
 }
 
 .color-light, .color-light a {
-	color: #444;
-	background-color: #f9f9f9;
-	text-decoration: none;
+    color: #444;
+    background-color: #f9f9f9;
+    text-decoration: none;
 }
 
 .color-dark, .color-dark a {
-	color: #f9f9f9;
-	background-color: #444;
-	text-decoration: none;
+    color: #f9f9f9;
+    background-color: #444;
+    text-decoration: none;
 }
 
 .circle {
     font-size: 5rem;
-	border-radius: 50%;
-	width: 150px;
-	height: 150px;
-	line-height: 150px;
-	text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
 }
 
 .chapter {
-	padding-top: 20px;
-	padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .chapter1 {
-	height: 500px;
+    height: 500px;
 }
