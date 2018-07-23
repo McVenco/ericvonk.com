@@ -1,12 +1,9 @@
-/* general things */
-
 html {
 	-webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
-  /* this is 2rem in original skeleton - I need less blank space */
 }
 
 img {
@@ -44,15 +41,10 @@ img {
 	text-align: center;
 }
 
-
-/* all chapters */
-
 .chapter {
 	padding-top: 20px;
 	padding-bottom: 50px;
 }
-
-/* add extra height for section 1*/
 
 .chapter1 {
 	height: 500px;
