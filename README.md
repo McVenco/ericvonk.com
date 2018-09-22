@@ -1,3 +1,3 @@
 # ericvonk.com
 
-This is my portfolio website. What more can I say, it's a portfolio! Look at it!
+22-09-2018: completely new and totally undressed portfolio site
