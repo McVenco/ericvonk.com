@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
 :root {
     /* https://colorhunt.co/palette/62241 */
@@ -45,7 +45,7 @@ a:hover {
 .hello {
     font-size: 4em;
     line-height: 2em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .about {
