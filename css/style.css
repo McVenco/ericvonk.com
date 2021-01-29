@@ -1,61 +1,64 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
 :root {
-    /* https://colorhunt.co/palette/62241 */
-    --text-color: #233b6e;
-    --text-secondary: #415f9d;
-    --background-color: #eff0f4;
-    --background-secondary: #d3d6db;
+  /* https://colorhunt.co/palette/62241 */
+  --text-color: #233b6e;
+  --text-secondary: #415f9d;
+  --background-color: #eff0f4;
+  --background-secondary: #d3d6db;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    color: var(--text-color);
-    background: var(--background-color);
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background: var(--background-color);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-a, a:focus, a:visited {
-    color: var(--text-color);
-    text-decoration: none;
+a,
+a:focus,
+a:visited {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 a:hover {
-    color: var(--text-secondary);
+  color: var(--text-secondary);
 }
 
 .flex-parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-container {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 .content-box {
-    text-align: center;
+  text-align: center;
 }
 
 .hello {
-    font-size: 4em;
-    line-height: 2em;
-    font-family: 'Raleway', sans-serif;
+  font-size: 4em;
+  line-height: 2em;
+  font-family: 'Raleway', sans-serif;
 }
 
 .about {
-    font-size: 1.6em;
+  font-size: 1.6em;
 }
 
 .icons {
-    font-size: 3em;
-    line-height: 2em;
+  font-size: 3em;
+  line-height: 2em;
 }
 
 .icons i {
-    padding: 0 5px;
+  padding: 0 5px;
 }
